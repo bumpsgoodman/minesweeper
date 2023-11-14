@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="minesweeper">
+      <UniqueIdentifier>{5ac06555-65d2-46a0-9b9e-a7b9170cd6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minesweeper\private">
+      <UniqueIdentifier>{0a9194ee-4708-42f2-b227-0c07e6ecfbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_soft_renderer">
+      <UniqueIdentifier>{76519c47-254f-4fd3-8ea7-c5c1d5b3b41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_math">
+      <UniqueIdentifier>{05ef0aa8-02b3-4c88-a7f2-7e2af6bb0f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_generic">
+      <UniqueIdentifier>{4ce3906a-8a91-4b3b-9266-5c09e39f2f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_generic\util">
+      <UniqueIdentifier>{069cf8ac-c665-4fbd-adc3-7eb850a33418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_file_system">
+      <UniqueIdentifier>{78c982b8-fa24-4b10-9943-af23bcb2d08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_common">
+      <UniqueIdentifier>{ad70df35-b33f-459b-884e-7a930302d57a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\minesweeper\game.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\minesweeper\private\precompiled.c">
+      <Filter>minesweeper\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\minesweeper\private\main.c">
+      <Filter>minesweeper\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\minesweeper\console_util.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\minesweeper\key_event.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\minesweeper\game.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\minesweeper\private\precompiled.h">
+      <Filter>minesweeper\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\minesweeper\console_util.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\minesweeper\key_event.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_common\defines.h">
+      <Filter>safe99_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_file_system\i_file_system.h">
+      <Filter>safe99_file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\chunked_memory_pool.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\dynamic_vector.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\fixed_vector.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\list.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\map.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\static_memory_pool.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\util\hash_function.h">
+      <Filter>safe99_generic\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\util\timer.h">
+      <Filter>safe99_generic\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\color.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\math.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\math_defines.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\math_misc.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\matrix.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\vector.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_soft_renderer\i_soft_renderer.h">
+      <Filter>safe99_soft_renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
